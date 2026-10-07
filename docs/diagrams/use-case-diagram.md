@@ -17,7 +17,7 @@ flowchart LR
     Issue["Кітап беру"]
     Return["Кітапты қайтару"]
     ManageBooks["Кітаптарды басқару"]
-    ManageUsers["Пайдаланушыларды басқару"]
+    ManageUsers["Жүйені  басқару"]
     Reports["Есептерді қарау"]
 
     Reader --> Login
