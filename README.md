@@ -28,9 +28,9 @@
 
 ## Жоба құжаттары
 
-- requirements.md — жүйе талаптары
-- use-case.md — Use Case сценарийлері
-- diagrams — UML диаграммалары
+- `requirements.md` — жүйе талаптары
+- `use-case.md` — Use Case сценарийлері
+- `diagrams` — UML диаграммалары
 
 ## Кітап іздеу
 
