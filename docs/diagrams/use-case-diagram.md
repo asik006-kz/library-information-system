@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     Reader["Оқырман"]
     Librarian["Кітапханашы"]
