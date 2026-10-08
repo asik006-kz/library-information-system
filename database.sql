@@ -152,6 +152,16 @@ SET fine = 500.00
 WHERE id = 1;
 GO
 
+INSERT INTO reservations
+(reservation_date, expiry_date, status, reader_id, book_id)
+VALUES
+('2026-10-08', '2026-10-10', N'Тестілеу', 1, 3);
+
+DELETE FROM reservations
+WHERE status = N'Тестілеу';
+
+GO
+
 SELECT * FROM admins;
 SELECT * FROM readers;
 SELECT * FROM librarians;
