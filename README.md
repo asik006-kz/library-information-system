@@ -168,3 +168,11 @@
 - [Use Case Diagram](docs/diagrams/use-case-diagram.md) — Use Case диаграммасы
 - [Class Diagram](docs/diagrams/2_class_diagram.png) — Class диаграммасы
 - [Database SQL](database.sql) — SQL скрипті
+## Git және GitHub
+
+Жоба Git және GitHub арқылы нұсқаларды басқару үшін ұйымдастырылған.
+
+- Main branch — негізгі жоба нұсқасы
+- Feature branch — өзгерістерді бөлек жасау үшін қолданылады
+- Commit — өзгерістер тарихын сақтау үшін қолданылады
+- Pull Request — өзгерістерді main branch-ке біріктіру үшін қолданылады
