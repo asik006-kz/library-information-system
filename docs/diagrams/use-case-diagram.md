@@ -1,8 +1,3 @@
-# Use Case диаграммасы
-
-## Кітапхана ақпараттық жүйесі
-
-```mermaid
 flowchart LR
     Reader["Оқырман"]
     Librarian["Кітапханашы"]
@@ -17,7 +12,7 @@ flowchart LR
     Issue["Кітап беру"]
     Return["Кітапты қайтару"]
     ManageBooks["Кітаптарды басқару"]
-    ManageUsers["Жүйені  басқару"]
+    ManageUsers["Жүйені басқару"]
     Reports["Есептерді қарау"]
 
     Reader --> Login
@@ -32,9 +27,7 @@ flowchart LR
     Librarian --> Return
     Librarian --> ManageBooks
 
-    Admin --> Login
     Admin --> ManageUsers
-    Admin --> Reports
 
     Head --> Login
     Head --> Reports
