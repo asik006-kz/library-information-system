@@ -170,3 +170,10 @@ SELECT * FROM books;
 SELECT * FROM reservations;
 SELECT * FROM loans;
 GO
+-- Git арқылы жаңартуды тексеру
+-- Кітапхана ақпараттық жүйесінің деректер қоры
+
+SELECT
+    name AS TableName
+FROM sys.tables
+ORDER BY name;
